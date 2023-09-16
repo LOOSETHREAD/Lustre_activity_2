@@ -136,6 +136,7 @@ public class Lustre_Activity_2 {
                 Library.deleteBook(isbn);
             }
             else if(input == 5){
+                System.out.println("Bye!");
                 scn.close();
                 System.exit(0);
             }
